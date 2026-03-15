@@ -92,3 +92,239 @@ Here:
 - `void` means the function does not return any value
 
 When a Java program runs, the JVM first executes the **main function**, and from there other functions are executed.
+
+
+# Day 02 – Java Basics Practice
+
+Today I practiced some fundamental concepts of Java such as:
+
+- Input
+- Output
+- Variables
+- Data Types
+- Scanner Class
+
+I also solved some errors while running my code and learned how to debug them.
+
+---
+
+# Output in Java
+
+Output is used to display information on the screen (Console / Terminal).
+
+In Java we mainly use three methods for output:
+
+```java
+System.out.print();
+System.out.println();
+System.out.printf();
+```
+
+### Example
+
+```java
+System.out.print("Hello");
+System.out.print("World");
+```
+
+Output:
+
+```
+HelloWorld
+```
+
+### Using println()
+
+```java
+System.out.println("Hello");
+System.out.println("World");
+```
+
+Output:
+
+```
+Hello
+World
+```
+
+### Using New Line Character
+
+We can also move to the next line using:
+
+```
+\n
+```
+
+Example:
+
+```java
+System.out.print("Name\nAge");
+```
+
+---
+
+# Variables in Java
+
+Variables are used to store data in a program.
+
+You can imagine a variable like a container that stores values.
+
+Example:
+
+```java
+int age = 25;
+String name = "Tony";
+```
+
+Variables can change their value during program execution.
+
+Example:
+
+```java
+int a = 30;
+a = 35;
+```
+
+---
+
+# Constants
+
+Some values should never change.
+
+Example:
+
+```
+PI = 3.14
+```
+
+These are called **constants**.
+
+---
+
+# Data Types in Java
+
+Java is a **type-based language**, which means every variable must have a data type.
+
+There are two types of data types:
+
+1. Primitive Data Types
+2. Non-Primitive Data Types
+
+---
+
+## Primitive Data Types
+
+Java has 8 primitive data types:
+
+- byte
+- short
+- int
+- long
+- float
+- double
+- char
+- boolean
+
+Example:
+
+```java
+int age = 25;
+double price = 19.99;
+char grade = 'A';
+boolean isJavaFun = true;
+```
+
+---
+
+## Non-Primitive Data Types
+
+These are more flexible and can store more complex data.
+
+Examples:
+
+- String
+- Array
+- Class
+- Object
+- Interface
+
+Example:
+
+```java
+String name = "Tony";
+```
+
+---
+
+# Taking User Input in Java
+
+To take input from the user we use the **Scanner class**.
+
+First we import it:
+
+```java
+import java.util.Scanner;
+```
+
+Then we create a Scanner object.
+
+```java
+Scanner sc = new Scanner(System.in);
+```
+
+---
+
+# next() vs nextLine()
+
+```
+next() → reads only the first word
+nextLine() → reads the full line including spaces
+```
+
+Example:
+
+```java
+String name = sc.next();
+```
+
+or
+
+```java
+String name = sc.nextLine();
+```
+
+---
+
+# Problems I Faced
+
+While practicing I faced some errors such as:
+
+- Writing the main function incorrectly
+- Missing semicolons
+- Missing curly braces
+- Scanner resource warning
+
+Example warning:
+
+```
+Resource leak: 'sc' is not closed
+```
+
+Solution:
+
+```java
+sc.close();
+```
+
+---
+
+# What I Learned Today
+
+- How Java output works
+- How variables store values
+- Difference between primitive and non-primitive data types
+- How to take user input using Scanner
+- Difference between next() and nextLine()
+- How to fix common Java errors
+
+
