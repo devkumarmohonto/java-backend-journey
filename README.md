@@ -328,3 +328,115 @@ sc.close();
 - How to fix common Java errors
 
 
+## Day 03 – Conditional Statements in Java
+
+Today I learned and practiced conditional statements in Java.
+
+### Topics Covered
+
+- if-else
+- else-if chain
+- switch statement
+- break keyword
+
+---
+
+## If-Else Statement
+
+The if-else statement is used to make decisions in a program.
+
+If the condition is true, the `if` block runs.  
+Otherwise, the `else` block runs.
+
+### Example
+
+```java
+if (age >= 18) {
+    System.out.println("Adult");
+} else {
+    System.out.println("Not Adult");
+}
+```
+
+---
+
+## Else-If Chain
+
+When we have multiple conditions, we use an else-if chain.
+
+```java
+if (marks >= 90) {
+    System.out.println("A");
+} else if (marks >= 75) {
+    System.out.println("B");
+} else {
+    System.out.println("C");
+}
+```
+
+---
+
+## Switch Statement
+
+The switch statement is used when we have fixed values.
+
+It is useful for menu-based or multiple-choice type problems.
+
+### Example
+
+```java
+int day = 2;
+
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    default:
+        System.out.println("Invalid");
+}
+```
+
+---
+
+## Break Keyword
+
+The `break` keyword is used to stop execution inside a switch case.
+
+If we do not use `break`, the next cases will also execute.
+
+---
+
+## Practice Programs
+
+Today I practiced several problems:
+
+- IfElse basic program
+- Month Name Finder
+- Season and Month Info Finder
+- Simple Calculator using switch
+- Smart Number Analyzer
+- Smart Number Game
+- Student Result System
+
+---
+
+## Problems I Faced
+
+- Confusion in multiple conditions
+- Missing break in switch statements
+- Logical errors in condition checking
+
+---
+
+## What I Learned
+
+- How to use if-else for decision making
+- How to handle multiple conditions using else-if
+- How switch works with fixed values
+- Importance of break keyword
+- How to solve real-life logic problems using conditions
+
+
