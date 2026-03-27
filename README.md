@@ -440,3 +440,100 @@ Today I practiced several problems:
 - How to solve real-life logic problems using conditions
 
 
+## Day 04 – Loops in Java
+
+Today I learned about loops in Java and practiced different types of loops.
+
+### Topics Covered
+
+- for loop
+- while loop
+- do-while loop
+
+---
+
+## What is a Loop?
+
+A loop is used to execute a block of code repeatedly.
+
+---
+
+## Types of Loops
+
+1. for loop
+2. while loop
+3. do-while loop
+
+---
+
+## For Loop
+
+The for loop is used when the number of iterations is fixed.
+
+### Example
+
+```java
+for (int i = 1; i <= 10; i++) {
+    System.out.println(i);
+}
+```
+
+---
+
+## While Loop
+
+The while loop is used when the number of iterations is not fixed.
+
+It runs until the condition becomes false.
+
+### Example
+
+```java
+int i = 1;
+
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+}
+```
+
+---
+
+## Do-While Loop
+
+The do-while loop executes the code at least once, then checks the condition.
+
+### Example
+
+```java
+int i = 10;
+
+do {
+    System.out.println(i);
+    i++;
+} while (i < 6);
+```
+
+### Output
+
+```
+10
+```
+
+---
+
+## Real-Life Understanding
+
+- Use **for loop** when you know how many times to repeat (e.g., 10 push-ups)
+- Use **while loop** when the condition is unknown (e.g., correct password)
+- Use **do-while loop** when you want to run at least once
+
+---
+
+## What I Learned
+
+- Difference between for, while, and do-while loops
+- When to use each loop
+- How loop conditions control execution
+
+
