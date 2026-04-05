@@ -537,3 +537,43 @@ do {
 - How loop conditions control execution
 
 
+# Day 5 - Java Pattern Practice
+
+Today I focused on solving different pattern problems in Java and understanding the core logic behind them.
+
+## What I learned
+
+* How to use nested loops for pattern printing
+* Understanding row and column relationship
+* Difference between solid and hollow patterns
+* Logic behind half pyramid and inverted pyramid
+* Using numbers and characters in patterns
+
+## Patterns I practiced
+
+* Half Pyramid
+* Inverted Half Pyramid
+* Half Pyramid with Numbers
+* Inverted Half Pyramid with Numbers
+* Hollow Rectangle Pattern
+* Solid Rectangle Pattern
+* Rotated Half Pyramid
+* Zero One Triangle
+
+## Problem I faced
+
+* I was confused about how rows and columns control the shape of patterns
+* Some patterns were difficult to visualize before coding
+
+## Solution
+
+* I broke each pattern into rows and columns
+* Practiced dry run on paper before coding
+* Repeated similar patterns to understand logic
+
+## Key Understanding
+
+Patterns are not about memorizing code.
+They are about understanding how loops work together.
+
+
