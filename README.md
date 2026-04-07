@@ -577,3 +577,32 @@ Patterns are not about memorizing code.
 They are about understanding how loops work together.
 
 
+# Day 6 - Java Pattern Practice (Hollow Patterns)
+
+Today I practiced hollow patterns and some advanced pattern problems in Java.
+
+## What I learned
+
+* Difference between solid and hollow patterns
+* How to use conditions inside loops
+* Controlling boundary elements (edges) in patterns
+* Improving logic using nested loops
+* Better understanding of row and column structure
+
+## Patterns I practiced
+
+* Hollow Half Pyramid
+* Hollow Inverted Half Pyramid
+* Hollow Full Pyramid
+* Hollow Butterfly Pattern
+* Hollow Solid Rhombus
+* Diamond Pattern
+* Butterfly Pattern
+* Number Pyramid
+* Palindromic Number Pyramid
+
+## Key Understanding
+
+Hollow patterns depend on conditions inside loops, not just loop structure.
+
+
